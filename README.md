@@ -7,7 +7,7 @@ Project by: Carlos Fornesa
             ,Carl Montecillo
             ,Aira Navarro
             ,Sean Quiteles
-            ,Miguel Villamayor
+            and Miguel Villamayor
             
 Project Sked link: https://bit.ly/cpe124grp5
 
