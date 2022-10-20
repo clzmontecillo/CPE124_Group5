@@ -1,4 +1,4 @@
-# Weather-Based Automated Water Sprinkler
+# ![alt text]([http://url/to/img.png](https://actionfirepros.com/wp-content/uploads/2016/08/Sprinkler-icon-287x300.png)) Weather-Based Automated Water Sprinkler
 
 CPE124 / GROUP 5
 
