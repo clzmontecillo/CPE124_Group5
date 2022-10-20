@@ -1,6 +1,6 @@
-# CPE124_Group5
+# Weather-Based Automated Water Sprinkler
 
-Weather-Based Automated Water Sprinkler
+CPE124 / GROUP 5
 
 
 Project by: Carlos Fornesa
