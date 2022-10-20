@@ -1,5 +1,6 @@
-# ![alt text]([http://url/to/img.png](https://actionfirepros.com/wp-content/uploads/2016/08/Sprinkler-icon-287x300.png)) Weather-Based Automated Water Sprinkler
+#Weather-Based Automated Water Sprinkler
 
+The project proposed by Group 5 from the students of CPE124-E01, is a weather-based automated water sprinkler. The sprinkler turns on depending on the data received from the temperature and humidity sensor. The group will use the Raspberry Pi Microcontroller to manipulate the sensors and other components.
 CPE124 / GROUP 5
 
 
