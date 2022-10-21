@@ -14,7 +14,8 @@ Project by: Carlos Fornesa
 Project Sked link: https://bit.ly/cpe124grp5
 
 
-IoT and WoT Project Documentation: https://bit.ly/cpe124grp5
+IoT and WoT Project Documentation: https://bit.ly/G5CPE124
+Service Learning Project Deliverables: https://bit.ly/G5CPE124
             
             
             
