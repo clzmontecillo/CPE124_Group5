@@ -1,0 +1,212 @@
+
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+
+<div class = "row" style = "background: rgb(0,36,6); background: linear-gradient(90deg, rgba(0,36,6,1) 0%, rgba(179,255,0,1) 0%, rgba(0,212,255,1) 100%); color: white;">
+
+    
+    <h1 class="display-1">Hello {{ user.username }} !</h1>
+    <h5 class="">Let's Start Working</h5>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<div class = "row">
+    
+        <div class="card col-lg-9" style = ""> 
+        <div class="card-body">
+        <table class="table" style = "">
+            <thead>
+              <tr>
+                <th style = "width:90%;"><h1>My Tickets</h1></th>
+                <th>
+                <button type="button" class="btn btn-success">Create Ticket</button>
+                </th>
+              </tr>
+            </thead>
+            
+            
+            <tbody style = "">
+
+              <tr style ="border-bottom-color: ;">
+                <td style = "width:100%;">
+                <h4>Ticket ID</h4>
+                Requested By: <br>
+                Nature of Request: <br>
+                Category: <br>
+                Unit:
+                </td>
+                
+                <td> 
+                <button type="button" style = "width:100%;" class="btn btn-primary">Status</button>Start Date & End Date:
+                </td>
+              </tr>
+
+              <tr style ="border-bottom-color: ;">
+                <td style = "width:100%;">
+                <h4>Ticket ID</h4>
+                Requested By: <br>
+                Nature of Request: <br>
+                Category: <br>
+                Unit:
+                </td>
+                
+                <td> 
+                <button type="button" style = "width:100%;" class="btn btn-primary">Status</button>Start Date & End Date:
+                </td>
+              </tr>
+
+              <tr style ="border-bottom-color: ;">
+                <td style = "width:100%;">
+                <h4>Ticket ID</h4>
+                Requested By: <br>
+                Nature of Request: <br>
+                Category: <br>
+                Unit:
+                </td>
+                
+                <td> 
+                <button type="button" style = "width:100%;" class="btn btn-primary">Status</button>Start Date & End Date:
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table></div>
+    
+        </div>
+
+    <div class="card col-lg-3" style = ""> 
+
+        <div class="card-body">
+        <br>
+        <center>
+        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" style = "width: 25%;">
+        <br> <br>
+        <h4>Juan P. Dela Cruz</h4>
+        <h4>ID</h4>
+        <p class="fw-light">
+            01-12-28<br>
+            Male<br>
+            90123456789<br>
+            juandelacruz@gmail.com
+
+        </p>
+   
+       
+
+        </center>
+        </div
+    </div>
+
+    
+
+</div>
+
+
+
+<div class = "row">
+
+
+
+    
+
+
+    <div class="card-lg-12" style = ""> 
+          
+        <div class="card-body">
+        <table class="table" style = "">
+            <thead>
+              <tr>
+                <th style = "width:100%;"><h1>All Tickets</h1></th>
+                <th>
+                View All
+                </th>
+              </tr>
+            </thead>
+            
+            
+            <tbody>
+
+              <tr style ="border-bottom-color: transparent;">
+                <td style = "width:100%;">
+                <h4>Ticket ID</h4>
+                Requested By: <br>
+                Nature of Request: <br>
+                Category: <br>
+                Unit:
+                </td>
+                
+                <td> 
+                <button type="button" style = "width:100%;" class="btn btn-primary">Status</button>Start Date & End Date:
+                </td>
+              </tr>
+
+              
+
+              
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+
+    
+
+</div>
+
+
+
+<div class="row">
+
+ 
+    <div class="card-lg-12" style = ""> 
+        <div class = "card-body">
+        
+        <form action="" method="POST">
+            <div class = "form-group">
+            {%csrf_token%}
+
+            {% crispy ticket_form%}
+
+
+      
+            <input type="submit" value="Create Ticket">
+        
+        </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
+
+ <!-- Bootstrap core JS-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- Core theme JS-->
+ <script src="js/scripts.js"></script>
+
+
