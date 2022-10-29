@@ -1,0 +1,1 @@
+from tyh import DataInsert as di
