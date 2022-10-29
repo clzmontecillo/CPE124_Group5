@@ -19,11 +19,3 @@ IoT and WoT Project Documentation: https://bit.ly/G5CPE124
 
 Service Learning Project Deliverables: https://bit.ly/G5CPE124
             
-main
-main
-            
-            
- main
-            
-            
-            
